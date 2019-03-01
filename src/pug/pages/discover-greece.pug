@@ -4,88 +4,12 @@ html(lang="ru-RU")
         title Discover Greece
         link(rel='stylesheet' type='text/css' href="static/css/main.css")
     body
-        .header
-            .header__top-menu
-                .header__top-menu__logo
-                .header__top-menu__menu
-                    ul.header__top-menu__menu__list
-                        li.header__top-menu__menu__item
-                        li.header__top-menu__menu__item
-                        li.header__top-menu__menu__item
-                        li.header__top-menu__menu__item
-                .header__top-menu__book-button
-            .header__offer
-                .header__offer__info
-                    .header__offer__info__title
-                    .header__offer__info__sale-value
-                    .header__offer__info__tour-name
-                    .header__offer__info__tour-info
-                    .header__offer__info__see-button
-                .header__offer__scroll
-            .header__booking
-                .header__booking__title
-                .header__booking__form
-                    ul.header__booking__form__list
-                        li.header__booking__form__destination
-                        li.header__booking__form__from
-                        li.header__booking__form__to
-                        li.header__booking__form__guests
-                        li.header__booking__form__submit-button
-        .about
-            .about__image
-            .about__content
-                .about__content__title
-                .about__content__info
-                .about__content__read-button
-            .about__divider
-        .destinations
-            .destinations__title
-            .destinations__info
-            .destinations__content
-                ul.destinations__content__list
-                    li.destinations__content__item
-                    li.destinations__content__item
-                    li.destinations__content__item
-                    li.destinations__content__item
-                    li.destinations__content__item
-                    li.destinations__content__item
-            .destinations__see-button
-        .packages
-            .packages__title
-            .packages__info
-            .packages__content
-                ul.packages__content__list
-                    li.packages__content__item
-                    li.packages__content__item
-                    li.packages__content__item
-        .offer
-            .offer__image
-            .offer__content
-                .offer__content__title
-                .offer__content__info
-                .offer__content__restriction
-                .offer__content__book-button
-        .newsletter
-            .newsletter__title
-            .newsletter__info
-            .newsletter__form
-            .newsletter__divider
-        .footer
-            .footer__container
-                ul.footer__container-list
-                    li.footer__container-item
-                        .footer__container-item__title
-                        .footer__container-item__content
-                    li.footer__container-item
-                        .footer__container-item__title
-                        .footer__container-item__content
-                    li.footer__container-item
-                        .footer__container-item__title
-                        .footer__container-item__content
-            .footer__bottom-menu
-                ul.footer__bottom-menu__list
-                    li.footer__bottom-menu__item
-                    li.footer__bottom-menu__item
-                    li.footer__bottom-menu__item
+        include ..//modules/header/header
+        include ..//modules/about/about
+        include ..//modules/destinations/destinations
+        include ..//modules/packages/packages
+        include ..//modules/offer/offer
+        include ..//modules/newsletter/newsletter
+        include ..//modules/footer/footer
         script(src='static/js/libs.min.js')   
         script(src='static/js/main.js')           

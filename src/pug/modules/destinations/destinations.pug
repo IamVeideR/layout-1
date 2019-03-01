@@ -1,0 +1,51 @@
+.destinations
+    .destinations__title
+        p.text Top Destinations
+    .destinations__info
+        p.text Septos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
+    .destinations__content
+        ul.destinations__content__list
+            li.destinations__content__item
+                -
+                    var destination = {
+                        img: 'spartan.jpeg',
+                        title: 'Santorini'
+                    }
+                include ../destination/destination
+            li.destinations__content__item
+                -
+                    var destination = {
+                        img: 'spartan.jpeg',
+                        title: 'Acropolis of Athens'
+                    }
+                include ../destination/destination
+            li.destinations__content__item
+                -
+                    var destination = {
+                        img: 'spartan.jpeg',
+                        title: 'Kastoria'
+                    }
+                include ../destination-see/destination-see
+            li.destinations__content__item
+                -
+                    var destination = {
+                        img: 'spartan.jpeg',
+                        title: 'Mykonos Islands'
+                    }
+                include ../destination/destination
+            li.destinations__content__item
+                -
+                    var destination = {
+                        img: 'spartan.jpeg',
+                        title: 'Temple of Aphaia'
+                    }
+                include ../destination/destination
+            li.destinations__content__item
+                -
+                    var destination = {
+                        img: 'spartan.jpeg',
+                        title: 'South Kastoria',
+                    }
+                include ../destination/destination
+    .destinations__see-button
+        a.link(href="#") See All Destiantions

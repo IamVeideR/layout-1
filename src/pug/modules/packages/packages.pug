@@ -1,0 +1,118 @@
+.packages
+    .packages__title
+        p.text Packages
+    .packages__info
+        p.text Septos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
+    .packages__content
+        ul.packages__content__list
+            li.packages__content__item
+                -
+                    var package = {
+                        img: 'spartan.jpeg',
+                        title: 'Culture Trip',
+                        info: 'Septos himaneos. Mauris in erat justo nullam ac urna en.'
+                    }
+                include ../package/package  
+                .packages__content__places
+                    ul.packages__content__places__list
+                        li.packages__content__places__item  
+                            -
+                                var place = {
+                                    title: 'Place 1',
+                                    info: 'Cererat consequant auctor eu elit sed',
+                                    time: '120 mins',
+                                    location: 'Santorini'
+                                }
+                            include ../place/place  
+                        li.packages__content__places__item  
+                            -
+                                var place = {
+                                    title: 'Place 2',
+                                    info: 'Cererat consequant auctor eu elit sed',
+                                    time: '180 mins',
+                                    location: 'Sparta'
+                                }
+                            include ../place/place
+                        li.packages__content__places__item  
+                            -
+                                var place = {
+                                    title: 'Place 3',
+                                    info: 'Cererat consequant auctor eu elit sed',
+                                    time: '105 mins',
+                                    location: 'South Kastoria'
+                                }
+                            include ../place/place       
+            li.packages__content__item
+                -
+                    var package = {
+                        img: 'spartan.jpeg',
+                        title: 'Water Sports',
+                        info: 'Septos himaneos. Mauris in erat justo nullam ac urna en.'
+                    }
+                include ../package/package 
+                .packages__content__places
+                    ul.packages__content__places__list
+                        li.packages__content__places__item  
+                            -
+                                var place = {
+                                    title: 'Place 1',
+                                    info: 'Cererat consequant auctor eu elit sed',
+                                    time: '180 mins',
+                                    location: 'Mykonos'
+                                }
+                            include ../place/place  
+                        li.packages__content__places__item  
+                            -
+                                var place = {
+                                    title: 'Place 2',
+                                    info: 'Cererat consequant auctor eu elit sed',
+                                    time: '150 mins',
+                                    location: 'Mykonos'
+                                }
+                            include ../place/place
+                        li.packages__content__places__item  
+                            -
+                                var place = {
+                                    title: 'Place 3',
+                                    info: 'Cererat consequant auctor eu elit sed',
+                                    time: '90 mins',
+                                    location: 'Mykonos'
+                                }
+                            include ../place/place
+            li.packages__content__item
+                -
+                    var package = {
+                        img: 'spartan.jpeg',
+                        title: 'Gastronomical',
+                        info: 'Septos himaneos. Mauris in erat justo nullam ac urna en.'
+                    }
+                include ../package/package 
+                .packages__content__places
+                    ul.packages__content__places__list
+                        li.packages__content__places__item  
+                            -
+                                var place = {
+                                    title: 'Place 1',
+                                    info: 'Cererat consequant auctor eu elit sed',
+                                    time: '90 mins',
+                                    location: 'Crete'
+                                }
+                            include ../place/place  
+                        li.packages__content__places__item  
+                            -
+                                var place = {
+                                    title: 'Place 2',
+                                    info: 'Cererat consequant auctor eu elit sed',
+                                    time: '60 mins',
+                                    location: 'Athens'
+                                }
+                            include ../place/place
+                        li.packages__content__places__item  
+                            -
+                                var place = {
+                                    title: 'Place 3',
+                                    info: 'Cererat consequant auctor eu elit sed',
+                                    time: '90 mins',
+                                    location: 'Athens'
+                                }
+                            include ../place/place
