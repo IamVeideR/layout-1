@@ -1,0 +1,16 @@
+.package
+    .package__header
+        .package__header__image
+            img(src="./../build/images/" + package.img, alt="").img
+        .package__header__title
+            p.text= package.title
+        .package__header__info
+            p.text= package.info
+    .package__places        
+    .package__footer
+        .package__footer__book-button
+            a.link(href="#") Book It Now
+        .package__footer__text
+            p.text or
+        .package__footer__link
+            a(href="#").link Customize it
