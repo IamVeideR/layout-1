@@ -1,0 +1,108 @@
+.header {
+    &__top-menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 64px 20px 64px;
+
+        &__logo {
+            &__link {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: $gray;
+            }
+            &__image {
+                width: 60px;
+                height: 60px;
+                background-color: black;
+            }
+            &__text {
+                padding: 0 10px;
+                font-family: 'Merriweather', sans-serif;
+                font-size: 22px;
+                letter-spacing: 0.5px;
+                font-weight: none;
+                text-transform: none;
+            }
+        }
+
+        &__menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 10px;
+            &__list {
+                display: flex;
+                padding-right: 10px;
+            }
+            &__item {
+                padding: 4px;
+                .link {
+                    padding: 2px;
+                    font-size: 14px;
+                    color: $gray;
+                }
+            }   
+        }
+
+        &__book-button {
+            a {
+                padding: 10px 22px;
+            }
+        }
+    }
+
+    &__offer {
+        background-color: $background-blue;
+            
+            &__info {
+                text-align: left;
+                color: $white;
+                width: 450px;
+                padding: 160px 100px 100px 150px;
+                *>* {
+                    color: $white;
+                }
+                &__title {
+                    .text {
+                        font-size: 18px;
+                    }
+                }
+                &__sale-value {
+                    .text {
+                        font-size: 64px;
+                        margin: 20px 0px;
+                        letter-spacing: 2px;
+                        line-height: 50px;
+                        color: $skyblue;
+                    }
+                }
+                &__tour-name {
+                    .text {
+                        margin: 25px 0px 36px 0px;
+                        font-size: 36px;
+                        letter-spacing: 2px;
+                    }
+                }
+                &__tour-info {
+                    .text {
+                        font-size: 14px;
+                    }
+                }
+                &__see-button {
+                    background-color: rgba(0,0,0,0);
+                    border-radius: 0px;
+                    border: 2px solid $white;
+                    margin: 20px 0px;
+                    a {
+                        padding: 14px 40px;
+                    }
+                }
+            }
+    }
+
+    &__booking {
+        display: flex;
+        background-color: $whitesmoke;
+    }
+}
