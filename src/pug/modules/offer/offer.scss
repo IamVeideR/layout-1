@@ -1,0 +1,29 @@
+.offer {
+    display: flex;
+    justify-content: space-between;
+        &__image {
+            flex-basis: 50%;
+            background-color: $background-blue;
+        }
+
+        &__content {
+            flex-basis: 50%;
+            background-color: $whitesmoke;
+                &__title {
+                    padding: 20px 5px 10px 15px;
+                    .text {
+                        font-size: 29px;
+                    }
+                }
+                &__info {
+                    padding: 2px 100px;
+                    .text {
+                        line-height: 22px;
+                    }
+
+                }
+        }
+        &__container {
+            padding: 100px 10px;
+        }
+}

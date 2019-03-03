@@ -16,7 +16,7 @@ h1 {
 
 p {
     font-family: 'Merriweather', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 a {
@@ -43,3 +43,5 @@ ul {
     cursor: pointer;
 }
 @import './../../pug/modules/header/header.scss';
+@import './../../pug/modules/about/about.scss';
+@import './../../pug/modules/offer/offer.scss';

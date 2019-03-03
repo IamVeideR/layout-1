@@ -1,0 +1,53 @@
+.about {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 90px 210px 0 240px;
+        text-align: left;
+    }
+    &__frame {
+        border: 1px solid $darkergray;
+    }
+    &__image {
+        width: 310px;
+        height: 425px;
+        margin: 10px;
+        background-color: $background-blue;
+    }
+    &__content {
+        padding: 5px 30px;
+        &__title {
+            .text {
+                font-size: 36px;
+                letter-spacing: 1.2px;
+                color: $khaki;
+            }
+        }
+        &__info {
+            padding-bottom: 6px;
+            .text {
+                padding-bottom: 8px;
+                line-height: 22px;
+                color: $darkgray;
+            }
+        }
+        &__read-button {
+            float: right;
+            margin-right: 4px;
+            a {
+                padding: 14px 22px;
+            }
+        }
+    }
+
+    &__divider {
+        padding: 85px 0 75px;
+        &__image {
+            margin: 0 auto;
+            width: 75px;
+            height: 75px;
+            background-color: black;
+        }
+    }
+
+}
