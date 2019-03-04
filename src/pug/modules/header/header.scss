@@ -102,7 +102,15 @@
     }
 
     &__booking {
-        display: flex;
         background-color: $whitesmoke;
+        &__title {
+            .text {
+                margin: 0;
+                color: $darkergray;
+            }
+        }
+        &__form {
+            display: flex;
+        }
     }
 }

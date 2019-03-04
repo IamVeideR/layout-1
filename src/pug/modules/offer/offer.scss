@@ -16,14 +16,26 @@
                     }
                 }
                 &__info {
-                    padding: 2px 100px;
+                    padding: 2px 130px;
                     .text {
                         line-height: 22px;
                     }
 
                 }
+                &__restriction {
+                    padding-bottom: 35px;
+                    .text {
+                        font-size: 12px;
+                    }
+
+                }
+                &__book-button {
+                    a {
+                        padding: 14px 24px;
+                    }
+                }
         }
         &__container {
-            padding: 100px 10px;
+            padding: 100px 10px 85px 10px;
         }
 }
