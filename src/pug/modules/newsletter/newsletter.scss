@@ -1,0 +1,17 @@
+.newsletter {
+    padding: 65px 100px 0px 100px;
+    &__title {
+        .text{
+            text-transform: none;
+            font-size: 28px;
+            font-weight: 400;
+        }
+    }
+    &__info {
+        .text{
+            font-size: 14px;
+            padding-top: 5px;
+            padding-bottom: 40px;
+        }
+    }
+}

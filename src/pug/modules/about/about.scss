@@ -24,11 +24,10 @@
             }
         }
         &__info {
-            padding-bottom: 6px;
+            padding-bottom: 14px;
             .text {
                 padding-bottom: 8px;
                 line-height: 22px;
-                color: $darkgray;
             }
         }
         &__read-button {
@@ -39,15 +38,4 @@
             }
         }
     }
-
-    &__divider {
-        padding: 85px 0 75px;
-        &__image {
-            margin: 0 auto;
-            width: 75px;
-            height: 75px;
-            background-color: black;
-        }
-    }
-
 }
