@@ -33,15 +33,17 @@
         .header__offer__scroll
             a.header__offer__scroll__link(href="#")
                 h1.text Scroll down
-                .icon
-                    img(src="",alt="").img
     .header__booking
         .header__booking__title
             h1.text Make a Reservation
         .header__booking__form
             form(action="#").form
-                input.input(type="text", placeholder="Select Destination")
-                input.input(type="text", placeholder="From")
-                input.input(type="text", placeholder="To")
-                input.input(type="text", placeholder="Guests")
+                .input-container
+                    input.input(type="text", placeholder="Select Destination")
+                .input-container
+                    input.input(type="text", placeholder="From")
+                .input-container
+                    input.input(type="text", placeholder="To")
+                .input-container
+                    input.input(type="text", placeholder="Guests")
                 button(type="submit").button Check Availability

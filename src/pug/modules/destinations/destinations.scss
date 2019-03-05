@@ -1,0 +1,31 @@
+.destinations {
+    padding-bottom: 80px;
+    &__title {
+        .text {
+            margin-top: 5px;
+            padding-bottom: 5px;
+            font-size: 36px;
+            color: $khaki;
+            letter-spacing: 1px;
+        }
+    }
+    &__info {
+        .text {
+            font-size: 15px;
+        }
+    }
+    &__content {
+        padding: 28px 120px 0px 160px;
+        &__list {
+            margin-bottom: 14px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+    &__see-button {
+        a {
+            padding: 14px 24px;
+        }
+    }
+}

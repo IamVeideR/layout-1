@@ -1,0 +1,18 @@
+.destination {
+    padding: 10px;
+    &__frame {
+        border: 1px solid $border-color;
+        }
+    &__image{
+        margin: 9px 10px;
+        width: 310px;
+        height: 240px;
+        background-color: $lightergray;
+    }
+    &__title {
+        padding-top: 8px;
+        .text {
+            font-size: 19px;
+        }
+    }
+}

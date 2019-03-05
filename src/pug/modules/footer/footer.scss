@@ -1,6 +1,6 @@
 .footer {
     &__container {
-        padding: 60px 160px 22px 160px;
+        padding: 60px 140px 22px 160px;
         background-color: $whitesmoke;
         text-align: left;
         &__list {
@@ -8,7 +8,8 @@
             justify-content: space-between;
         }
         &__item {
-            width: 320px;
+            max-width: 320px;
+            padding-right: 20px;
             &__title {
                 .text {
                     padding-bottom: 8px;
@@ -45,7 +46,7 @@
     }
 
     &__bottom-menu {
-        padding: 26px 150px 20px 150px;
+        padding: 26px 130px 20px 150px;
         background-color: $darkslategray;
         &__list {
             display: flex;
@@ -62,6 +63,7 @@
             }
         }
         &__item {
+            padding-right: 20px;
             .link {
                 width: 38px;
                 height: 38px; 
@@ -69,6 +71,9 @@
                 background-color: $lightgray;
                 border-radius: 50%;
 
+            }
+            .info {
+                margin-top: 5px;
             }
             .text {
                 font-size: 13px;

@@ -58,8 +58,8 @@
             &__info {
                 text-align: left;
                 color: $white;
-                width: 450px;
-                padding: 160px 100px 100px 150px;
+                max-width: 450px;
+                padding: 160px 100px 120px 150px;
                 *>* {
                     color: $white;
                 }
@@ -99,18 +99,84 @@
                     }
                 }
             }
+            &__scroll {
+                padding-bottom: 23px;
+                .text {
+                    position: relative;
+                    padding-bottom: 30px;
+                    font-size: 16px;
+                    text-transform: none;
+                    color: $white;
+                }
+                .text::before {
+                    content: '';
+                    position: absolute;
+                    top: 27px;
+                    left: 32px;
+                    width: 20px; 
+                    height: 20px;
+                    background-color: $black;
+                }
+            }
     }
 
     &__booking {
         background-color: $whitesmoke;
+        padding: 9px 150px 20px 180px;
         &__title {
             .text {
-                margin: 0;
                 color: $darkergray;
+                font-size: 17px;
+                padding-bottom: 15px;
             }
         }
         &__form {
-            display: flex;
+            padding: 0px 70px 15px 45px;
+            .form {
+                display: flex;
+                justify-content: space-between;
+            }
+            .input-container {
+                position: relative;
+                .input {
+                    padding: 17px 30px 13px 15px ;
+                    margin-right: 12px;
+                    width: 90px;
+                    border: none;
+                    font-style: italic;
+                    font-size: 12px;
+                    color: $darkergray;
+                    background-color: $lightergray;
+                }
+                input::placeholder {
+                    color: $darkergray;
+                   }
+            }
+            .input-container:first-child {
+                .input {
+                    width: 200px;
+                } 
+            }
+            .input-container::before {
+                content: '';
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                width: 15px; 
+                height: 15px;
+                background-color: black;
+            }
+            .button {
+                border: none;
+                background-color: $blue;
+                font-family: 'Lato', sans-serif;
+                font-size: 14px;
+                font-weight: bold;
+                text-transform: uppercase;
+                color: $white;
+                padding: 0px 23px;
+                cursor: pointer;
+            }
         }
     }
 }
