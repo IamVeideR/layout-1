@@ -1,0 +1,12 @@
+.destination {
+    &__image {
+        position: relative;
+    }
+    &__seemore {
+        height: 0px;
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        background-color: $test;
+    }
+}
