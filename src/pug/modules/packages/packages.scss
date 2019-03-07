@@ -1,3 +1,26 @@
 .packages {
     background-color: $whitesmoke;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    &__title {
+        .text {
+            margin-top: 5px;
+            padding-bottom: 5px;
+            font-size: 36px;
+            color: $khaki;
+            letter-spacing: 1px;
+        }
+    }
+    &__info {
+        .text {
+            font-size: 15px;
+            margin-left: 75px;
+        }
+    }
+    &__content {
+        &__list {
+            padding: 35px 150px 10px 150px;
+            margin-bottom: 0px;
+        }
+    }
 }

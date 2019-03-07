@@ -1,0 +1,108 @@
+.package {
+    display: flex;
+    background-color: $white;
+    border-radius: 4px;
+    border: 1px solid $border-color;
+    margin-bottom: 25px;
+    &__header {
+        padding: 29px 22px 0px 22px;
+        &__image {
+            margin: 0 auto;
+            width: 40px;
+            height: 40px;
+            background-color: black;
+        }
+        &__title {
+            .text {
+                padding-top: 2px;
+                margin-bottom: 0px;
+                font-size: 20px;
+                color: $khaki;
+            }
+        }
+        &__info {
+            .text {
+                margin: 12px 0px;
+            }
+            max-width: 305px; 
+        }
+    }
+    &__places {
+        display: flex;
+        background-color: $border-color;
+        padding: 0px 15px 2px 18px;
+        width: 79%;
+       
+    }
+    &__place {
+        padding: 18px 12px;
+        .place {
+            &__info {
+                .text {
+                    font-size: 13px;
+                    padding-top: 5px;
+                }
+            }
+            &__time {
+                text-align: start;
+                padding-left: 45px;
+                .text {
+                    font-size: 12px;
+                    margin: 12px 0;
+                    position: relative;
+                }
+                .text::before {
+                    content: '';
+                    position: absolute;
+                    top: 0px;
+                    left: -25px;
+                    width: 15px; 
+                    height: 15px;
+                    background-color: $darkgray;
+                }
+            }
+            &__location {
+                text-align: start;
+                padding-left: 45px;
+                .text {
+                    font-size: 12px;
+                    margin: 12px 0;
+                    position: relative;
+                }
+                .text::before {
+                    content: '';
+                    position: absolute;
+                    top: 0px;
+                    left: -25px;
+                    width: 15px; 
+                    height: 15px;
+                    background-color: $darkgray;
+                }
+            }
+        }
+    }
+    &__footer {
+        padding: 50px 55px 0px 55px;
+        &__book-button {
+            margin-bottom: 3px;
+            min-width: 130px;
+            a {
+                padding: 14px 5px;
+            }
+        }
+        &__text {
+            .text {
+                font-size: 12px;
+                margin: 2px 0px;
+            }
+        }
+        &__link {
+            a {
+                white-space: nowrap;
+                text-decoration: underline;
+                color: $khaki;
+                text-transform: none;
+            }
+        }
+    }
+}
