@@ -6,11 +6,38 @@
             h1.text= package.title
         .package__header__info
             p.text= package.info
-    .package__places        
+    .package__places
+        .package__place 
+            .place__title
+                h1.text= package.title1
+            .place__info
+                p.text= package.info1
+            .place__time
+                p.text= package.time1
+            .place__location
+                p.text= package.location1 
+        .package__place 
+            .place__title
+                h1.text= package.title2
+            .place__info
+                p.text= package.info2
+            .place__time
+                p.text= package.time2
+            .place__location
+                p.text= package.location2
+        .package__place 
+            .place__title
+                h1.text= package.title3
+            .place__info
+                p.text= package.info3
+            .place__time
+                p.text= package.time3
+            .place__location
+                p.text= package.location3
     .package__footer
         .package__footer__book-button.base-button
             a.link(href="#") Book It Now
         .package__footer__text
-            ph1.text or
+            p.text or
         .package__footer__link
             a(href="#").link Customize it
